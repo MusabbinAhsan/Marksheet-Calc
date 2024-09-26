@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marksheet Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Marksheet Calculator</h1>
+        <div class="marksheet-box">
+            <button onclick="calculateMarks()">Enter Marks</button>
+        </div>
+
+        <!-- Result Modal -->
+        <div id="resultModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 id="studentName">Student: --</h2>
+                <p id="mathResult">Math: --</p>
+                <p id="englishResult">English: --</p>
+                <p id="scienceResult">Science: --</p>
+                <p id="totalResult">Total: --</p>
+                <p id="percentageResult">Percentage: --%</p>
+                <p id="remarksResult">Remarks: --</p>
+            </div>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
